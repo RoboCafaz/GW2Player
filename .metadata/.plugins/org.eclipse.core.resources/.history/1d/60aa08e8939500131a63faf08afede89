@@ -1,0 +1,11 @@
+package com.robocafaz.gwplayer.common.keystroke;
+
+import java.awt.Robot;
+
+public class KeyStroke {
+  private final Robot _robot;
+
+  public KeyStroke() {
+    this._robot = new Robot();
+  }
+}

@@ -1,0 +1,23 @@
+package com.robocafaz.gwplayer.main.song;
+
+import java.util.Stack;
+import com.robocafaz.gwplayer.main.constants.Instrument;
+import com.robocafaz.gwplayer.main.song.note.SongAction;
+
+public class Song {
+  private final String _name;
+  private final Instrument _instrument;
+  private final int _bpm;
+  private final Stack<SongAction> _actions;
+
+  public Song(String name, Instrument instrument, int bpm) {
+    this._name = name;
+    this._instrument = instrument;
+    this._bpm = bpm;
+    this._actions = new Stack<SongAction>();
+  }
+
+  public void appendAction(SongAction action) {
+    this._actions.push(action);
+  }
+}

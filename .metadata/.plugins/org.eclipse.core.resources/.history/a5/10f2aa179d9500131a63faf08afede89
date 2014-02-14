@@ -1,0 +1,7 @@
+package com.robocafaz.gwplayer.main.executor;
+
+public interface Executor {
+  public void play(Song song);
+
+  public void play(Note note);
+}

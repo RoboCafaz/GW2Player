@@ -1,0 +1,9 @@
+package com.robocafaz.gwplayer.main.song;
+
+public class Song {
+  private String _name;
+  private Instrument _instrument;
+  private int _delay;
+  private ArrayList<SongAction> _actions;
+
+}

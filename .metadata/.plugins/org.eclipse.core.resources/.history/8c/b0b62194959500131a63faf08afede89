@@ -1,0 +1,36 @@
+package com.robocafaz.gwplayer.main.keystroke;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.util.Arrays;
+import java.util.List;
+import com.robocafaz.gwplayer.main.util.Logger;
+
+public class KeyStroke {
+  private static final List<int[]> ACCEPTABLE_INPUTS;
+  private Robot _robot;
+
+  static {
+    ACCEPTABLE_INPUTS = Arrays.asList(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 });
+  }
+
+  public KeyStroke() {
+    try {
+      this._robot = new Robot();
+    } catch (AWTException e) {
+      Logger.logError("Could not instantiate Robot due to an error!");
+    }
+  }
+
+  public void keyPress(int number) {
+    if (ACCEPTABLE_INPUTS.contains(number)) {
+
+    } else {
+      Logger.logError("Attempting to press '" + number + "' but that is unacceptable!");
+    }
+  }
+
+  public static void main(String... args) {
+    KeyStroke stroke = new KeyStroke();
+  }
+}

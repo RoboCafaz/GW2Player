@@ -1,0 +1,16 @@
+package com.robocafaz.gwplayer.common.keystroke;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+
+public class KeyStroke {
+  private Robot _robot;
+
+  public KeyStroke() {
+    try {
+      this._robot = new Robot();
+    } catch (AWTException e) {
+      e.printStackTrace();
+    }
+  }
+}

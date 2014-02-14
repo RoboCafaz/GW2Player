@@ -1,0 +1,27 @@
+package com.robocafaz.gwplayer.main.executor;
+
+import java.util.Queue;
+import com.robocafaz.gwplayer.main.song.Song;
+import com.robocafaz.gwplayer.main.song.note.SongAction;
+
+public abstract class AbstractExecutor implements Executor {
+  @Override
+  public void play(Song song) {
+    startSong(song);
+    Queue<SongAction> actions = song.getActions();
+    while (actions.peek() != null) {
+      actions.poll().play(this);
+    }
+    finishSong(song);
+  }
+
+  @Override
+  public void startSong(Song song) {
+    // ...
+  }
+
+  @Override
+  public void finishSong(Song song) {
+    // ...
+  }
+}

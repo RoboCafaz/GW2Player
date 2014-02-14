@@ -1,0 +1,5 @@
+package com.robocafaz.gwplayer.common.keystroke;
+
+public class KeyStroke {
+  private final Robot _robot;
+}

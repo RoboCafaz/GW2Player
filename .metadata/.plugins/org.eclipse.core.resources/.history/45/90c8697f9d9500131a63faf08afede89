@@ -1,0 +1,4 @@
+package com.robocafaz.gwplayer.main.song;
+
+public interface IAction {
+}

@@ -1,0 +1,5 @@
+package com.robocafaz.gwplayer.main.song.note;
+
+public enum Action {
+  N1, N2, N3, N4, N5, N6, N7, N8, OCTAVE_UP, OCTAVE_DOWN, PAUSE;
+}

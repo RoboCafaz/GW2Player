@@ -1,0 +1,35 @@
+package com.robocafaz.gwplayer.main.executor;
+
+import com.robocafaz.gwplayer.main.song.note.Action;
+
+public class KeyboardExecutor extends AbstractExecutor {
+  @Override
+  public void execute(Action action) {
+    switch (action) {
+    case N1:
+      KeyStroke.
+      break;
+    case N2:
+      break;
+    case N3:
+      break;
+    case N4:
+      break;
+    case N5:
+      break;
+    case N6:
+      break;
+    case N7:
+      break;
+    case N8:
+      break;
+    case OCTAVE_DOWN:
+      break;
+    case OCTAVE_UP:
+      break;
+    default:
+      break;
+
+    }
+  }
+}

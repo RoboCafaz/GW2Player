@@ -1,0 +1,19 @@
+1392394943651	Rename package 'com.robocafaz.gwplayer.common'
+1392394948880	Move compilation unit
+1392394950133	Delete element
+1392394959649	Move compilation unit
+1392396208038	Rename field 'metricsReporterService'
+1392398653354	Delete element
+1392398780088	Rename type 'Action'
+1392398783927	Rename local variable 'action'
+1392398796032	Rename type 'Executor'
+1392398877491	Rename type 'Note'
+1392398880115	Rename type 'IACtion'
+1392398943133	Delete element
+1392399107752	Rename type 'IExecutor'
+1392399214631	Move compilation units
+1392399407602	Rename local variable 'action'
+1392400362937	Rename type 'SongInterpreter'
+1392400674219	Rename type 'KeyStroke'
+1392401574018	Rename local variable 'c'
+1392401577530	Rename local variable 'n'

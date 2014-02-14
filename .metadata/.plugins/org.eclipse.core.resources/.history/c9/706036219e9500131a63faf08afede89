@@ -1,0 +1,5 @@
+package com.robocafaz.gwplayer.main.song;
+
+public class Chord extends Note {
+
+}

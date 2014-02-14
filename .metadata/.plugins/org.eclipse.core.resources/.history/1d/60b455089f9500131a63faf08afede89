@@ -1,0 +1,18 @@
+package com.robocafaz.gwplayer.main.song;
+
+import java.util.ArrayList;
+import com.robocafaz.gwplayer.main.constants.Instrument;
+import com.robocafaz.gwplayer.main.song.note.SongAction;
+
+public class Song {
+  private String _name;
+  private Instrument _instrument;
+  private int _bpm;
+  private ArrayList<SongAction> _actions;
+
+  public Song(String name, Instrument instrument, int bpm){
+    _name = name;
+    _instrument = instrument;
+    _bpm = bpm;
+  }
+}

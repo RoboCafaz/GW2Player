@@ -1,0 +1,13 @@
+package com.robocafaz.gwplayer.main.executor;
+
+import com.robocafaz.gwplayer.main.song.note.Action;
+import com.robocafaz.gwplayer.main.song.note.SongAction;
+
+public class KeyboardExecutor extends AbstractExecutor {
+  @Override
+  public void execute(Action action) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

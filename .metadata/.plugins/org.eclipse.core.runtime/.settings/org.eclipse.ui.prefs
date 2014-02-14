@@ -1,0 +1,4 @@
+SHOW_TEXT_ON_PERSPECTIVE_BAR=false
+defaultPerspectiveId=org.eclipse.jst.j2ee.J2EEPerspective.BJava
+eclipse.preferences.version=1
+showIntro=false

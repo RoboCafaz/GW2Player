@@ -1,0 +1,29 @@
+package com.robocafaz.gwplayer.main.keystroke;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+
+public class KeyStroke {
+  private static final int[] ACCEPTABLE_INPUTS = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+  private Robot _robot;
+
+  public KeyStroke() {
+    try {
+      this._robot = new Robot();
+    } catch (AWTException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public void keyPress(int number) {
+    if()
+  }
+
+  private void printError() {
+
+  }
+
+  public static void main(String... args) {
+    Keystroke stroke = new KeyStroke();
+  }
+}

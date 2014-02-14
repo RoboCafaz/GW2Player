@@ -1,0 +1,13 @@
+package com.robocafaz.gwplayer.main.song.note;
+
+import com.robocafaz.gwplayer.main.executor.Executor;
+
+public class Note implements SongAction {
+
+  @Override
+  public void play(Executor executor) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

@@ -1,0 +1,10 @@
+package com.robocafaz.gwplayer.main.song.note;
+
+public class Chord extends Note {
+
+  public Chord(Action action) {
+    super(action);
+    // TODO Auto-generated constructor stub
+  }
+
+}

@@ -1,0 +1,15 @@
+package com.robocafaz.gwplayer.main.constants;
+
+public class Instrument {
+  private final String _name;
+  private final int _octaves;
+  private final boolean _hold;
+  private final boolean _chords;
+
+  public Instrument(String name, int octaves, boolean holds, boolean chords) {
+    _name = name;
+    _octaves = octaves;
+    _hold = holds;
+    _chords = chords;
+  }
+}

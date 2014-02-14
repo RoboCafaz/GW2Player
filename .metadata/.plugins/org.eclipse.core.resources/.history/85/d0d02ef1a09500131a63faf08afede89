@@ -1,0 +1,15 @@
+package com.robocafaz.gwplayer.main.song;
+
+import com.robocafaz.gwplayer.main.constants.Instrument;
+
+public class SongFactory {
+  public static Song interpret(String string) {
+    Song song = new Song("Imported Song", Instrument.BELL, 100);
+
+    return song;
+  }
+
+  public static void main(String... args) {
+    Song song = SongFactory.interpret("6 (4 342 5 32) 6 6 (4 342 5 86 445 65 354 2 445 65 4 2 1 2)");
+  }
+}

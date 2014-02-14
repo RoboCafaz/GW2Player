@@ -1,0 +1,6 @@
+package com.robocafaz.gwplayer.main.util;
+
+public class Logger {
+  public static void logMessage(String message) {
+  };
+}

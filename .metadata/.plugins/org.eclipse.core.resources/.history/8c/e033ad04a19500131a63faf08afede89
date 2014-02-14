@@ -1,0 +1,9 @@
+package com.robocafaz.gwplayer.main.executor;
+
+import com.robocafaz.gwplayer.main.song.Song;
+
+public abstract class AbstractExecutor implements Executor {
+  public void play(Song song) {
+    Stack<SongAction> actions = song.getActions().clone();
+  }
+}
